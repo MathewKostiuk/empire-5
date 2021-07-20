@@ -301,6 +301,7 @@
           "9277da70-592e-4d14-9d97-c94599d2e88a": {
             "type": "promotion",
             "settings": {
+              "image": "shopify:\/\/shop_images\/Bass_Visuals_Earth_Fit_Width_Stars_Blue_HD_1920x1080_30p.jpg",
               "background_position": "center-center",
               "title": "Grid",
               "text": "Use this section to welcome customers to your store, say a bit about your brand, or share news.",
