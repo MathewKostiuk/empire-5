@@ -761,6 +761,7 @@
         ],
         "settings": {
           "title": "Shoppable Image",
+          "image": "shopify:\/\/shop_images\/Bass_Visuals_Earth_Fit_Width_Stars_Blue_HD_1920x1080_30p.jpg",
           "image_width": "two-thirds",
           "link_text": "View product",
           "textbox_title": "Shop the look",
