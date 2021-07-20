@@ -15754,6 +15754,12 @@ rgb(255, 255, 255)
   background-color: #1d1d1d;
 }
 
+/* Customization by Matty @ PXU */
+.hotspot__badge--soldout {
+  color: maroon; 
+}
+/* End Matty's customization */
+
 .product__badge--sale,
 .productitem__badge--sale,
 .hotspot__badge--sale {
