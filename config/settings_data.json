@@ -722,7 +722,7 @@
           "161411620981c75d5e-1": {
             "type": "hotspot",
             "settings": {
-              "product": "",
+              "product": "100-movies-poster",
               "x_axis": 64,
               "y_axis": 67
             }
