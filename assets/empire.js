@@ -16483,11 +16483,11 @@ var PhotoSwipeUI_Default =
 			clickToCloseNonZoomable: true,
 
 			shareButtons: [
-				{id:'facebook', label:'Share on Facebook', url:'https://www.facebook.com/sharer/sharer.php?u={{url}}'},
-				{id:'twitter', label:'Tweet', url:'https://twitter.com/intent/tweet?text={{text}}&url={{url}}'},
+				{id:'facebook', label:'Share on Facebook', url:'https://www.facebook.com/sharer/sharer.php?u='},
+				{id:'twitter', label:'Tweet', url:'https://twitter.com/intent/tweet?text=&url='},
 				{id:'pinterest', label:'Pin it', url:'http://www.pinterest.com/pin/create/button/'+
-													'?url={{url}}&media={{image_url}}&description={{text}}'},
-				{id:'download', label:'Download image', url:'{{raw_image_url}}', download:true}
+													'?url=&media=&description='},
+				{id:'download', label:'Download image', url:'', download:true}
 			],
 			getImageURLForShare: function( /* shareButtonData */ ) {
 				return pswp.currItem.src || '';
@@ -16641,10 +16641,10 @@ var PhotoSwipeUI_Default =
 				page_url = _options.getPageURLForShare(shareButtonData);
 				share_text = _options.getTextForShare(shareButtonData);
 
-				shareURL = shareButtonData.url.replace('{{url}}', encodeURIComponent(page_url) )
-									.replace('{{image_url}}', encodeURIComponent(image_url) )
-									.replace('{{raw_image_url}}', image_url )
-									.replace('{{text}}', encodeURIComponent(share_text) );
+				shareURL = shareButtonData.url.replace('', encodeURIComponent(page_url) )
+									.replace('', encodeURIComponent(image_url) )
+									.replace('', image_url )
+									.replace('', encodeURIComponent(share_text) );
 
 				shareButtonOut += '<a href="' + shareURL + '" target="_blank" '+
 									'class="pswp__share--' + shareButtonData.id + '"' +
@@ -33021,7 +33021,7 @@ var ProductGridItem = /*#__PURE__*/function () {
     /**
      * Get height of element, and combined height of element + actions
      *
-     * @returns {{heightBase, heightExpanded: *}}
+     * @returns 
      * @private
      */
 
@@ -38801,7 +38801,7 @@ var DynamicTwitterFeed_DynamicTwitterFeed = /*#__PURE__*/function () {
      * Retrieve information about user who tweeted
      *
      * @param el
-     * @returns {{$avatar: *, link: *, name, screenName}}
+     * @returns 
      * @private
      */
 
@@ -38825,7 +38825,7 @@ var DynamicTwitterFeed_DynamicTwitterFeed = /*#__PURE__*/function () {
      * Retrieve link to tweet, and when it was tweeted
      *
      * @param el
-     * @returns {{link: *, postedAt: *}}
+     * @returns 
      * @private
      */
 
